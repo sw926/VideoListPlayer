@@ -24,7 +24,8 @@ import com.waynell.videolist.visibility.scroll.ListViewItemPositionGetter;
 
 import java.util.List;
 
-import butterknife.Bind;
+import butterknife.BindDimen;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
@@ -32,7 +33,7 @@ import butterknife.ButterKnife;
  */
 public class ListViewActivity extends AppCompatActivity {
 
-    @Bind(R.id.list_view)
+    @BindView(R.id.list_view)
     ListView mListView;
 
     private static final int HEADER_COUNT = 2;
